@@ -1,0 +1,43 @@
+
+.TxtAboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.PicAndTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(14, 2, 33);
+    border-radius: 18px;
+    padding: 1.2em;
+}
+
+.Pic img {
+    width: 18vw;
+    border-radius: 15px;
+}
+
+.Txt{
+    margin-left: 1em;
+}
+
+.Txt h2 {
+    color: rgb(56, 156, 189);
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.Txt {
+    color: white;
+    width: 25vw;
+    line-height: 25px
+}
+
+.dark {
+    background-color: #eee8e8;
+    color: rgb(21, 21, 21);
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Font1';
+    src: url('/path/to/font1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('/path/to/font2.woff') format('woff');
+}
+
+.font-font1 {
+    font-family: 'Font1', 'Segoe UI';
+}
+
+.font-font2 {
+    font-family: 'Font2', 'Trebuchet MS';
+    font-weight: 200;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    color: rgb(244, 236, 236);
+    background-color: rgb(29, 18, 47);
+    font-size: 1.2em;
+    margin-right: 1em;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: rgb(7, 59, 74);
+}
+
+button:active {
+    background-color: rgb(13, 107, 133);
+}

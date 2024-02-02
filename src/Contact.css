@@ -1,0 +1,84 @@
+.ContactMeApp {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 12vh;
+}
+
+.MySocials {
+    background-color: #0E0221;
+    width: 35vw;
+    margin-right: 2em;
+    border-radius: 15px;
+}
+
+.MySocials p {
+    margin-bottom: 1em;
+}
+
+.MySocials h2 {
+    margin-bottom: 1em;
+}
+
+.ContactMe {
+    width: 35vw;
+    background-color: #0E0221;
+    margin-left: 2em;
+    border-radius: 15px;
+}
+
+.ContactMe h2 {
+    margin-bottom: 1em;
+}
+
+.MySocials,
+.ContactMe {
+    padding: 3.5em;
+}
+
+.InputName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+    background-color: rgb(29, 18, 47);
+    border: none;
+    padding: 6px;
+    color: white;
+}
+
+.InputMail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1.2em;
+    background-color: rgb(29, 18, 47);
+    border: none;
+    padding: 6px;
+    color: white;
+}
+
+.Submit{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(29, 18, 47);
+    text-decoration: none;
+    color: white;
+    margin-top: 0.8em;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 18, 47);
+    border: none;
+    padding: 6px;
+    color: white;
+}
+
+.SpanSocial {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+

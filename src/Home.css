@@ -1,0 +1,60 @@
+.Home {
+    color: white;
+    width: 30vw;
+    position: relative;
+    position: absolute;
+    left: 12vw;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeTxt {
+    width: 30vw;
+    top: 24vh;
+    position: relative;
+
+}
+
+.HomeTxt p {
+    color: rgb(56, 156, 189);
+    font-size: 20px;
+    margin-bottom: 0.2em;
+}
+
+.HomeTxt h1 {
+    font-size: 45px;
+}
+
+.HomeTxt h3 {
+    color: grey;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 2.5em;
+}
+
+.HomeBtn {
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border: solid 6px rgb(14, 2, 33);
+    border-radius: 3px;
+    background-color: rgb(29, 18, 47);
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+.HomeBtn:hover {
+    background-color: rgb(7, 59, 74);
+}
+
+.HomePic img {
+    height: 60vh;
+    top: 14vh;
+    position: relative;
+    border-radius: 15px;
+}
+

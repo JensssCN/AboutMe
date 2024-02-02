@@ -1,0 +1,29 @@
+.My-Work {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Work {
+    color: rgb(244, 236, 236);
+    margin-top: 13vh;
+    background-color: rgb(14, 2, 33);
+    border: 1em solid rgb(14, 2, 33);
+    border-radius: 15px;
+    width: 40vw;
+}
+
+.CarouselImages img{
+    height: 38vh;
+    margin-top: 20px;
+}
+
+.Work h2 {
+    letter-spacing: 1px;
+    color: rgb(56, 156, 189);
+}
+
+.Work a{
+    text-decoration: none;
+    color: rgb(56, 156, 189);
+}
+
